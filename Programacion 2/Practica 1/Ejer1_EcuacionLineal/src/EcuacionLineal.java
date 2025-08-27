@@ -1,7 +1,10 @@
 import java.util.Scanner;
+//RODRIGO CATUNTA SIRPA
 //Imagenes del UML y las 2 pruebas de terminal en la carpeta lib 
 
 public class EcuacionLineal {
+
+    //inciso a atributos privados adcdef
     private double a;
     private double b;
     private double c;
@@ -9,6 +12,7 @@ public class EcuacionLineal {
     private double e;
     private double f;
 
+    //inciso b Constructor
     public EcuacionLineal(double a, double b, double c, double d, double e, double f){
         this.a = a;
         this.b = b;
@@ -56,6 +60,7 @@ public class EcuacionLineal {
         double e = sc.nextDouble();
         double f = sc.nextDouble();
 
+        //Creando la ecuacionlineal
         EcuacionLineal eq1 = new EcuacionLineal(a, b, c, d, e, f);
         System.out.println("***** Solución *****");
         System.out.println(eq1);
