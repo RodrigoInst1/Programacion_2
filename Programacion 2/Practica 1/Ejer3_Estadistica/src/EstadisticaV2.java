@@ -32,8 +32,6 @@ public class EstadisticaV2 {
         return Math.sqrt(suma / 9);
     }
 
-    // toString
-    @Override
     public String toString() {
         return String.format("El promedio es %.2f%nLa desviacion estándar es %.5f",
                 promedio(), desviacion());
