@@ -1,4 +1,6 @@
 import java.util.Scanner;
+//RODRIGO CATUNTA SIRPA
+//IMAGENES DEL UML Y LAS PRUEBAS EN LA CARPETA lib
 
 public class EstadisticaV1 {
     //atributo privado
@@ -47,5 +49,6 @@ public class EstadisticaV1 {
         EstadisticaV1 est = new EstadisticaV1(valores);
 
         System.out.println(est);
+        //IMAGENES DEL UML Y LAS PRUEBAS EN LA CARPETA lib
     }
 }
