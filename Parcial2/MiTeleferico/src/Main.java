@@ -6,7 +6,7 @@ public class Main {
         Persona p2 = new Persona("Maria", 30, 20f);
         Persona p3 = new Persona("Carlos", 40, 20f);
         Persona p4 = new Persona("Ana", 35, 20f);
-        Persona p5 = new Persona("Josep", 25, 20f);
+        Persona p5 = new Persona("Josep", 25, 700f);
         Persona p6 = new Persona("Marcos", 30, 20f);
         Persona p7 = new Persona("Carl", 40, 20f);
         Persona p8 = new Persona("Jana", 35, 20f);
